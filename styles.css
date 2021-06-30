@@ -1,6 +1,41 @@
+
+
 body{
-    background-color: green;
+    background-color: black;
+    margin: 10px;
+  }
+div.container{
+    width: 450px;
+    margin: auto;
 }
-p{
-    color:ivory
+div.post{
+    background: white;
+}
+.fab {
+    color: tomato;
+    size: 500px;
+    
+}
+
+div.post-img img{
+    width: 100%;
+
+}
+
+div.post-description p{
+ padding: 0mm;
+margin: auto;
+    
+}
+
+.fab{
+    position: -ms-page;
+    font-size:  30px;
+}
+.fas{
+    display: inline-block;
+    font-size: 30px;
+}
+.far{
+    font-size: 25px;
 }
