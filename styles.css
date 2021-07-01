@@ -6,36 +6,74 @@ body{
   }
 div.container{
     width: 450px;
-    margin: auto;
+   margin: auto;
 }
 div.post{
     background: white;
+   
 }
-.fab {
-    color: tomato;
-    size: 500px;
-    
+div.post-header{
+   margin-top: 50px;
+   height: 60px;
 }
+
+div.post-header p{
+position: relative;
+   bottom: 25px;
+    left:50px ;
+    font-size: 14px;
+   line-height:0px;
+
+
+}
+
 
 div.post-img img{
     width: 100%;
 
 }
+ div.post-description p{
+     margin: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 20px;
+     padding-top: 10px;
+     font-size:15px;
+     font-family: Arial, Helvetica, sans-serif;
+ 
+ }
 
-div.post-description p{
- padding: 0mm;
-margin: auto;
-    
-}
+
 
 .fab{
-    position: -ms-page;
-    font-size:  30px;
+    position:relative;
+    top:15px ;
+    bottom: ;
+    right: ;
+    left: 10px;
+    font-size: 35px;
+    color: orangered;
 }
 .fas{
-    display: inline-block;
+    position:relative;
+    top: 10px ;
+    bottom: ;
+    right: ;
+    left: 400px;
     font-size: 30px;
 }
 .far{
-    font-size: 25px;
+    position:relative;
+    top:10px ;
+    bottom: ;
+    right: ;
+    left:10px ;
+    font-size: 30px; 
 }
+div.tag{
+    position: relative;
+    left: 400px;
+    bottom: 28px;
+    font-size: 30px;
+}
+
